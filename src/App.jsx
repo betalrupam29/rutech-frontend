@@ -174,7 +174,7 @@ function UnsubscribePage() {
       const data = await response.json();
 
       if (response.ok && data.success === true) {
-        setMessage({ text: "A unique cancellation link code was sent to your email.", isError: false });
+        setMessage({ text: "A otp has been sent to your mail.", isError: false });
         setStep(2);
       } else {
         setMessage({ text: data.message || "Failed to process unsubscribe request.", isError: true });
