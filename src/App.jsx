@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 // Update this to match your Express server's base URL and port
-const API_BASE_URL ="https://rutech-backend.onrender.com/api/auth"; 
+const API_BASE_URL ="rutech-backend.netlify.app/api/auth"; 
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState("subscribe"); 
